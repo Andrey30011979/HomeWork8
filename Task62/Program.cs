@@ -5,7 +5,7 @@
 // 11 16 15 06
 // 10 09 08 07
 
-int len = 4;
+int len = 6;
 int[,] table = new int[len, len];
 FillArraySpiral(table, len);
 PrintArray(table);
